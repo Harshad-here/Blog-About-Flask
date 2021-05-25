@@ -13,9 +13,9 @@ import os
 import smtplib
 
 smtp_server = "smtp.gmail.com"
-sender_email = "<sender mail id>"
-receiver_email = "<receiver mail id>"
-email_password = "<sender's mail password>"
+sender_email = "<sender email>"
+receiver_email = "<Receiver Email>"
+email_password = "<sender email password>"
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
