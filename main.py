@@ -12,11 +12,10 @@ from functools import wraps
 import os
 import smtplib
 
-smtp_server = os.environ["SMTP_SERVER"]
-sender_email = os.environ["SENDER"]
-receiver_email = os.environ["RECEIVER"]
-email_password = os.environ["PASSWORD"]
-
+smtp_server = "smtp.gmail.com"
+sender_email = "<sender mail id>"
+receiver_email = "<receiver mail id>"
+email_password = "<sender's mail password>"
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
