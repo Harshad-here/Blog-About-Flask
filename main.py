@@ -72,7 +72,7 @@ class BlogPost(db.Model):
     body = db.Column(db.Text, nullable=False)
     img_url = db.Column(db.String(250), nullable=False)
 
-db.create_all()
+#db.create_all()
 
 def admin_only(f):
     @wraps(f)
