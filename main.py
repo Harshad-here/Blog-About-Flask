@@ -70,7 +70,7 @@ class BlogPost(db.Model):
     subtitle = db.Column(db.String(250), nullable=False)
     date = db.Column(db.String(250), nullable=False)
     body = db.Column(db.Text, nullable=False)
-    img_url = db.Column(db.String(), nullable=False)
+    img_url = db.Column(db.String, nullable=False)
 
 db.create_all()
 
